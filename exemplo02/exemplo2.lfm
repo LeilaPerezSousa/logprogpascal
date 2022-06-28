@@ -1,0 +1,26 @@
+object Form1: TForm1
+  Left = 849
+  Height = 195
+  Top = 126
+  Width = 277
+  Caption = 'Form1'
+  ClientHeight = 195
+  ClientWidth = 277
+  LCLVersion = '2.0.12.0'
+  object btCalcular: TButton
+    Left = 32
+    Height = 34
+    Top = 46
+    Width = 200
+    Caption = 'Para começar, clique no botão'
+    TabOrder = 0
+  end
+  object btSair: TButton
+    Left = 88
+    Height = 25
+    Top = 100
+    Width = 75
+    Caption = 'Sair'
+    TabOrder = 1
+  end
+end
