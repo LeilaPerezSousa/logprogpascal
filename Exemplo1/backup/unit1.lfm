@@ -1,0 +1,66 @@
+object Form1: TForm1
+  Left = 684
+  Height = 240
+  Top = 142
+  Width = 458
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 458
+  LCLVersion = '2.0.12.0'
+  object Button1: TButton
+    Left = 38
+    Height = 32
+    Top = 72
+    Width = 86
+    Caption = 'ºF para ºC'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 38
+    Height = 34
+    Top = 118
+    Width = 84
+    Caption = 'ºC para ºF'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 160
+    Height = 23
+    Top = 72
+    Width = 94
+    TabOrder = 2
+  end
+  object Edit2: TEdit
+    Left = 160
+    Height = 23
+    Top = 119
+    Width = 94
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 256
+    Height = 15
+    Top = 78
+    Width = 13
+    Caption = 'ºC'
+    ParentColor = False
+  end
+  object Edit3: TEdit
+    Left = 256
+    Height = 23
+    Top = 118
+    Width = 23
+    TabOrder = 4
+    Text = 'ºF'
+  end
+  object Label2: TLabel
+    Left = 94
+    Height = 15
+    Top = 36
+    Width = 218
+    Caption = 'Tranformação de Escalas de Temperatura'
+    ParentColor = False
+  end
+end

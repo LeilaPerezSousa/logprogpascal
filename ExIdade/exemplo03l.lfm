@@ -1,0 +1,64 @@
+object Form1: TForm1
+  Left = 684
+  Height = 317
+  Top = 142
+  Width = 451
+  Caption = 'Form1'
+  ClientHeight = 317
+  ClientWidth = 451
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 32
+    Height = 15
+    Top = 30
+    Width = 103
+    Caption = 'Ano de nascimento'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 15
+    Top = 64
+    Width = 51
+    Caption = 'Ano atual'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 15
+    Top = 96
+    Width = 29
+    Caption = 'Idade'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 180
+    Height = 23
+    Top = 30
+    Width = 76
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 180
+    Height = 23
+    Top = 56
+    Width = 76
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 180
+    Height = 23
+    Top = 88
+    Width = 76
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 304
+    Height = 79
+    Top = 32
+    Width = 89
+    Caption = 'Calcular'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+end

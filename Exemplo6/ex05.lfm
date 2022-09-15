@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 643
+  Height = 240
+  Top = 142
+  Width = 361
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 361
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 96
+    Height = 15
+    Top = 21
+    Width = 142
+    Caption = 'Calculo de Média de Notas'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 48
+    Height = 15
+    Top = 96
+    Width = 94
+    Caption = 'Número de Notas'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 72
+    Height = 15
+    Top = 144
+    Width = 33
+    Caption = 'Média'
+    ParentColor = False
+  end
+  object ENumNotas: TEdit
+    Left = 160
+    Height = 23
+    Top = 96
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 0
+    Text = '0'
+  end
+  object EMedia: TEdit
+    Left = 160
+    Height = 23
+    Top = 136
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 1
+    Text = '0'
+  end
+  object BDigitar: TButton
+    Left = 128
+    Height = 26
+    Top = 48
+    Width = 91
+    Caption = 'Digitar Notas'
+    OnClick = BDigitarClick
+    TabOrder = 2
+  end
+  object BLimpar: TButton
+    Left = 56
+    Height = 29
+    Top = 177
+    Width = 70
+    Caption = 'Limpar'
+    OnClick = BLimparClick
+    TabOrder = 3
+  end
+  object BSair: TButton
+    Left = 176
+    Height = 25
+    Top = 180
+    Width = 80
+    Caption = 'Sair'
+    OnClick = BSairClick
+    TabOrder = 4
+  end
+end

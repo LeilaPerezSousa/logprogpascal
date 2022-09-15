@@ -1,0 +1,105 @@
+object Form1: TForm1
+  Left = 684
+  Height = 273
+  Top = 142
+  Width = 457
+  Caption = 'Form1'
+  ClientHeight = 273
+  ClientWidth = 457
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 112
+    Height = 15
+    Top = 27
+    Width = 146
+    Caption = 'Programa sobre Triangulos '
+    ParentColor = False
+  end
+  object ladoA: TLabel
+    Left = 22
+    Height = 15
+    Top = 60
+    Width = 37
+    Caption = 'Lado A'
+    ParentColor = False
+  end
+  object ladoB: TLabel
+    Left = 23
+    Height = 15
+    Top = 104
+    Width = 36
+    Caption = 'Lado B'
+    ParentColor = False
+  end
+  object ladoC: TLabel
+    Left = 21
+    Height = 15
+    Top = 144
+    Width = 37
+    Caption = 'Lado C'
+    ParentColor = False
+  end
+  object Mresultado: TMemo
+    Left = 232
+    Height = 90
+    Top = 104
+    Width = 150
+    ReadOnly = True
+    ScrollBars = ssBoth
+    TabOrder = 0
+  end
+  object Btriangulo: TButton
+    Left = 232
+    Height = 30
+    Top = 64
+    Width = 148
+    Caption = 'Formam um Triângulo?'
+    OnClick = BtrianguloClick
+    TabOrder = 1
+  end
+  object Blimpar: TButton
+    Left = 88
+    Height = 28
+    Top = 232
+    Width = 71
+    Caption = 'LIMPAR'
+    OnClick = BlimparClick
+    TabOrder = 2
+  end
+  object Bsair: TButton
+    Left = 264
+    Height = 28
+    Top = 232
+    Width = 77
+    Caption = 'SAIR'
+    OnClick = BsairClick
+    TabOrder = 3
+  end
+  object EladoA: TEdit
+    Left = 106
+    Height = 23
+    Top = 63
+    Width = 66
+    Alignment = taRightJustify
+    TabOrder = 4
+    Text = '0'
+  end
+  object EladoB: TEdit
+    Left = 106
+    Height = 23
+    Top = 107
+    Width = 66
+    Alignment = taRightJustify
+    TabOrder = 5
+    Text = '0'
+  end
+  object EladoC: TEdit
+    Left = 106
+    Height = 23
+    Top = 142
+    Width = 64
+    Alignment = taRightJustify
+    TabOrder = 6
+    Text = '0'
+  end
+end
